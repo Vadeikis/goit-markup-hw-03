@@ -21,6 +21,22 @@ body {
   background-color: var(--primary-background-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 /* Header */
 
 .logo-link {
@@ -95,12 +111,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.hero .button {
+.hero-btn {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,9 +126,9 @@ body {
   cursor: pointer;
 }
 
-.hero .button:hover,
-.hero .button:focus {
-background-color: var(--active-accent-background-color);
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--active-accent-background-color);
 }
 
 /* Our preference */

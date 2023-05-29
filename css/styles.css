@@ -193,7 +193,7 @@ img {
 .container-pref {
 }
 
-.visually-hidden {
+.hidden-tittle {
   display: none;
 }
 
@@ -436,6 +436,6 @@ img {
 margin-bottom: 0;
 }
 
-..category-item:nth-child(7) {
+.category-item:nth-child(7) {
 margin-bottom: 0;
 }
